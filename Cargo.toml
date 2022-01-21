@@ -1,0 +1,14 @@
+[package]
+name = "wordlet"
+version = "0.1.0"
+authors = ["Scott Luptowski <scottluptowski@gmail.com>"]
+edition = "2021"
+about = "A terminal-based clone of wordle"
+keywords = ["wordlet", "wordle", "word", "game"]
+
+[dependencies]
+clap = { version = "3.0.6", features = ["derive"] }
+chrono = "0.4" 
+crossterm = "0.19"
+tui = { version = "0.14", default-features = false, features = ['crossterm'] }
+rand = "0.8.0"
