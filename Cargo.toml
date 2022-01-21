@@ -5,7 +5,7 @@ authors = ["Scott Luptowski <scottluptowski@gmail.com>"]
 edition = "2021"
 description = "A terminal-based clone of wordle"
 keywords = ["wordlet", "wordle", "word", "game"]
-license = "LICENSE.txt"
+license-file = "LICENSE.txt"
 
 [dependencies]
 clap = { version = "3.0.6", features = ["derive"] }
