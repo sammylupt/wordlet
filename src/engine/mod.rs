@@ -4,6 +4,7 @@ use std::collections::{HashMap, HashSet};
 
 mod game_error;
 mod utils;
+mod words;
 
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub enum GameStatus {

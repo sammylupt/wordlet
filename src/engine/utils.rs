@@ -1,18 +1,12 @@
+use crate::engine::words::dictionary_words;
 use rand::seq::SliceRandom;
 use std::collections::{HashMap, HashSet};
-use std::fs::File;
-use std::io::{BufRead, BufReader};
 
 pub fn dictionary() -> HashSet<String> {
     let mut dict = HashSet::new();
-    let filename = "./src/engine/dictionary.txt";
-    let file = File::open(filename).unwrap();
-    let reader = BufReader::new(file);
-
-    for line in reader.lines() {
-        dict.insert(line.unwrap());
+    for w in dictionary_words() {
+        dict.insert(w);
     }
-
     dict
 }
 

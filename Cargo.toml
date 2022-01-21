@@ -1,6 +1,6 @@
 [package]
 name = "wordlet"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Scott Luptowski <scottluptowski@gmail.com>"]
 edition = "2021"
 description = "A terminal-based clone of wordle"
