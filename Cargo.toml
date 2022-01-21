@@ -3,8 +3,9 @@ name = "wordlet"
 version = "0.1.0"
 authors = ["Scott Luptowski <scottluptowski@gmail.com>"]
 edition = "2021"
-about = "A terminal-based clone of wordle"
+description = "A terminal-based clone of wordle"
 keywords = ["wordlet", "wordle", "word", "game"]
+license = "LICENSE.txt"
 
 [dependencies]
 clap = { version = "3.0.6", features = ["derive"] }
