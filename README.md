@@ -24,6 +24,8 @@ You quit the game by pressing escape.
 
 ## Nerd stuff
 
+Building the app locally requires Rust 1.58 or higher.
+
 This was an exercise in writing a fully functional Rust program. There are
 probably better and more performant ways to implement the Wordlet algorithm but
 I purposely did not look at how Wordle was implemented.
